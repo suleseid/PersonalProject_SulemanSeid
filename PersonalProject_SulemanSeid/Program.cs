@@ -15,8 +15,8 @@ namespace PersonalProject_SulemanSeid
             Preload();
 
             Console.WriteLine("Contains");
-            Console.WriteLine(StoreDirectory.Contains("Aqua Adventures").ToString()); // True
-            Console.WriteLine(StoreDirectory.Contains("Zara").ToString()); // False
+            Console.WriteLine("Is Storedirectory Contains Aqua Adventures ? " + " " + StoreDirectory.Contains("Aqua Adventures").ToString()); // True
+            Console.WriteLine("Is Storedirectory Contains Zara ? " + " " + StoreDirectory.Contains("Zara").ToString()); // False
             Console.WriteLine("Print");
             PrintStoreNames(); // print the store names
             // Create a new node with the store name
@@ -51,7 +51,7 @@ namespace PersonalProject_SulemanSeid
             //list.Remove("Hello");
 
             // Display the list again
-            list.Display();
+            //list.Display();
 
             // Insert an element at index 1
             list.InsertAtIndex(1, "C#");
